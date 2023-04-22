@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color: #916169;
+}
+img{
+    margin-right: 20px;
+}
+nav{
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    gap: 20%;
+}
+
+nav ul li {
+    padding: 5px;
+    background-color: #44b504;
+    border-radius: 8px;
+    font-size: 28px;
+}
+nav ul li:hover{
+    background-color: rgb(249, 244, 237);
+    border-radius: 10px;
+    padding: 6px;
+}
+.producto{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
